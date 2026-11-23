@@ -149,11 +149,11 @@
 
 | 想改的东西 | 改哪儿 |
 |---|---|
-| 五档的名字 | `server.mjs` 的 `TIERS` |
-| 门槛 | `server.mjs` 里 `thresholds` 那一行 |
-| 涨速 | `server.mjs` 里 `seasonBounds` 后面的 `speed` |
-| 发情期日期 | `server.mjs` 的 `seasonBounds` |
-| **每一档怎么说话** | **`server.mjs` 的 `TIER_VOICE`** |
-| 事件增减 | 用 `set.mjs`，或直接改 json |
+| 五档的名字 | `panel/server.mjs` 的 `TIERS` |
+| 门槛 | `panel/server.mjs` 里 `thresholds` 那一行 |
+| 涨速 | `panel/server.mjs` 里 `seasonBounds` 后面的 `speed` |
+| 发情期日期 | `panel/server.mjs` 的 `seasonBounds` |
+| **每一档怎么说话** | **`panel/server.mjs` 的 `TIER_VOICE`** |
+| 事件增减 | 用 `panel/set.mjs`，或直接改 json |
 
 `TIER_VOICE` 是这份设定的落点。改它，改的就是"发情会怎么样"。

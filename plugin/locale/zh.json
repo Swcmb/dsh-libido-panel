@@ -2,6 +2,6 @@
   "meta": {
     "title": "性欲值",
     "description": "在输入框上方显示 0–100 的数值、当前档位和发情期倒计时。数据读自本机的 127.0.0.1:41888，那个小服务没开时显示「面板没开」。",
-    "detail": "plugin/docs/DETAIL.md"
+    "detail": "docs/DETAIL.md"
   }
 }

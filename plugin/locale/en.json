@@ -2,6 +2,6 @@
   "meta": {
     "title": "Libido meter",
     "description": "Shows a 0-100 reading, its tier and the countdown to the season above the composer. The data comes from a local service on 127.0.0.1:41888; when that service is not running, the HUD shows that the panel is offline.",
-    "detail": "plugin/docs/DETAIL.md"
+    "detail": "docs/DETAIL.md"
   }
 }

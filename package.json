@@ -1,9 +1,27 @@
 {
   "name": "dsh-libido-panel",
   "version": "1.0.0",
-  "description": "A DSH bundle with a local state panel and a libido HUD above the conversation composer.",
+  "description": "A standard DSH bundle with a local state panel and a conversation composer HUD.",
   "type": "module",
   "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Swcmb/dsh-libido-panel.git"
+  },
+  "homepage": "https://github.com/Swcmb/dsh-libido-panel#readme",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "bundle",
+    "composer-hud"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node panel/server.mjs"
+  },
   "exports": {
     ".": "./index.js",
     "./client": "./plugin/client.js",
@@ -18,10 +36,8 @@
     "plugin/client.js",
     "plugin/icon.svg",
     "plugin/locale/*.json",
-    "plugin/docs/DETAIL.md",
+    "docs/**",
     "panel/**",
-    "发情设定.md",
-    "安装说明.md",
     "README.md"
   ],
   "dsh": {

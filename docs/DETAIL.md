@@ -14,7 +14,7 @@
 | --- | --- |
 | 服务 | `panel/server.mjs`（也可使用 `panel/start.bat`） |
 | 状态文件 | `~/.dsh/worlds/default/me/发情状态.json` |
-| 规则 | `发情设定.md` |
+| 规则 | `RULES.md` |
 
 服务未启动时，HUD 显示「面板没开」，不会阻塞输入或对话。
 

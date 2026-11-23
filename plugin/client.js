@@ -1,5 +1,5 @@
 window.__ModuleLoader__.load({
-  id: '@local/dsh-libido-hud',
+  id: 'dsh-libido-panel',
   factory(require) {
     const React = require('react');
     const h = React.createElement;
@@ -81,7 +81,7 @@ window.__ModuleLoader__.load({
       }, []);
 
       if (down) {
-        return h('div', { style: wrap, title: '状态面板没有在跑，双击 D:\\deepseek\\_libido\\start.bat' },
+        return h('div', { style: wrap, title: '状态面板未启动，请先运行 panel/start.bat' },
           h('span', null, '面板没开'));
       }
       if (!state) return null;

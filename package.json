@@ -1,0 +1,40 @@
+{
+  "name": "dsh-libido-panel",
+  "version": "1.0.0",
+  "description": "A DSH bundle with a local state panel and a libido HUD above the conversation composer.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./plugin/client.js",
+    "./locale/*.json": "./plugin/locale/*.json",
+    "./icon": "./plugin/icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "plugin/index.js",
+    "plugin/client.js",
+    "plugin/icon.svg",
+    "plugin/locale/*.json",
+    "plugin/docs/DETAIL.md",
+    "panel/**",
+    "发情设定.md",
+    "安装说明.md",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-renderer"
+      ]
+    }
+  }
+}

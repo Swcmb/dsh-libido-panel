@@ -20,14 +20,14 @@
 
 ## 怎么让它变
 
-这个插件只负责显示和注入当前状态，不负责直接调整数值。可通过面板或同目录的 `set.mjs` 修改状态：
+这个插件只负责显示和注入当前状态，不负责直接调整数值。可通过面板或仓库中的 `panel/set.mjs` 修改状态：
 
 ```text
-node set.mjs                 看现在多少
-node set.mjs +8 摸尾巴        涨 8 并记一条事件
-node set.mjs -20 难过         落 20
-node set.mjs 解决             直接归 10
-node set.mjs 睡醒             记录睡醒
+node panel/set.mjs                 看现在多少
+node panel/set.mjs +8 摸尾巴        涨 8 并记一条事件
+node panel/set.mjs -20 难过         落 20
+node panel/set.mjs 解决             直接归 10
+node panel/set.mjs 睡醒             记录睡醒
 ```
 
 ## 会话范围
